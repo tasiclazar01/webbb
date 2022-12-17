@@ -53,19 +53,19 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("Šta ja radim")
+        st.header("Šta ja radim?")
         st.write("##")
         st.write(
             """
-            Iako sam junior elektricar bavim se sa vise razlicitih stvari:
-            - instalacija strujne mreze u kuci
+            Iako sam junior električar bavim se sa više različitih stvari:
+            - instalacija strujne mreže u kući
             - popravka svih vrsta bele tehnike
-            - popravka televizora, racunara, laptopova
-            - popravka elektronskih komponenata na maticnim plocama
-            - instalacija led traka po zelji
+            - popravka televizora, računara, laptopova
+            - popravka elektronskih komponenti na matičnim pločama
+            - instalacija led traka po želji
             """
         )
-        st.write("Ja sam vase svetlo na kraju tunela")
+        st.write("Ja sam vaše svetlo na kraju tunela :flashlight:")
     with right_column:
         st_lottie(lottie_coding, height=300, key = "coding")
 
